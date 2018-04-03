@@ -1,0 +1,99 @@
+/*
+ Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up)
+*/
+@media screen and (max-width: 945px) { 
+    .appointment-right{
+        width:100%;
+    }
+    .heading{
+        width: 100%;
+    }
+    .appointment-right .form-group input{
+        width: 97%;
+    }
+    .appointment-right .form-group textarea{
+        width:97%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 320px) {
+    .logo-image h1{
+        padding-top: 19px;
+        font-size: 29px !important;
+    }
+    #menubar{
+        margin-top: 0px;
+    }
+    #menubar .nav-link{
+        margin-right: 0px;
+        padding: 15px 15px;
+    }
+    #menubar .dropdown-menu.show{
+        position: relative !important;
+        margin-top: 5px;
+        top: 0;
+     }
+    .icon ul {
+    list-style: none;
+    margin-left: -145px;
+    margin-top: -51px;
+    overflow: hidden;
+    }
+    .appointment-left{
+        margin-left: 0;
+    }
+    .appointment-left img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .heading{
+        height: auto;
+    }
+    .appointment-right .form button{
+        width: 300px;
+    }
+    
+    .bannertext .text h1{
+        font-size: 16px;
+    }
+    .bannertext .text button{
+         padding: 6px 4px;
+    }
+    .contact-left tr input{
+        width: 90%;
+        height: 44px;
+        margin-top: 0px;
+    }
+    .contact-left textarea{
+        width: 92% !important;
+    }
+    iframe {
+    width: 100%;
+    }
+    .footer-1st {
+    width: 100%;
+    margin: 20px 23px;
+    min-height: 40px;
+    }   
+   .footer-down {
+    margin-left: -5px;
+    } 
+    .footer-2nd {
+    float: left;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  
+}

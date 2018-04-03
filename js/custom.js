@@ -1,0 +1,35 @@
+$("document").ready(function(){
+ $(".owl-carousel").owlCarousel({
+     loop:true,
+     margin:10,
+     nav:false,
+     dots:true,
+     autoplay:true,
+     autoplayTimeout:3000,
+     smartSpeed:800,
+     mouseDrag:true,
+     responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+ })
+});
+
+/* nav fixed */
+	$("document").ready(function(){
+	 $(window).scroll(function(){
+	  if($(window).scrollTop()>200){
+		$('.main-nav').addClass('fixed-top');  
+	  }
+	  else{
+		$('.main-nav').removeClass('fixed-top');  
+	  }
+	});
+	});
